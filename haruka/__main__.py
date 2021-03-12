@@ -185,9 +185,6 @@ def control_panel(bot, update):
         M_match = "ThaNos is the best bot" #LMAO, don't uncomment
 
     if M_match:
-        text = "*Control panel* 🛠"
-
-        keyboard = [[InlineKeyboardButton(text="👤 My settings", callback_data="cntrl_panel_U(1)")]]
 
         #Show connected chat and add chat settings button
         conn = connected(bot, update, chat, user.id, need_admin=False)
